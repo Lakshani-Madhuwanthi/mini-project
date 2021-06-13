@@ -1,0 +1,33 @@
+.events {
+    min-height: 90vh;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    h2{
+        color: var(--primary-color2);  
+    }
+    .cards {
+      display: flex;
+      justify-content: space-between;
+      .card {
+        background: var(--hover-color);
+        margin: 0rem 5rem;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        border-radius: 2rem;
+        overflow: hidden;
+        h4 {
+          margin: 2rem 0rem 1rem 0rem;
+        }
+        p {
+          padding: 2rem;
+        }
+        img {
+          object-fit: cover;
+        }
+      }
+    }
+  }

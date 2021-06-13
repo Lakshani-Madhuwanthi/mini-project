@@ -1,0 +1,12 @@
+.fixed-img{
+    background-image: url("../img/beach-wedding.jpg");
+    background-size: cover;
+    height: 40rem;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    h2{
+        text-align: center;
+        color: white;
+        padding: 5%;
+    }
+}

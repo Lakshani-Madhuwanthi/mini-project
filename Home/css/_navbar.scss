@@ -1,0 +1,24 @@
+.nav-container {
+    background-color: white;
+  }
+  nav {
+    width: 80%;
+    margin: auto;
+    min-height: 10vh;
+    padding: 3rem 0rem;
+    @include flexCenter();
+  
+    ul {
+      @include flexCenter();
+      flex: 1;
+      list-style: none;
+      font-weight: 400;
+      
+    }
+    #logo{
+        flex: 1;
+        letter-spacing: 1rem;
+        font-size: 2.5rem;
+        font-weight: lighter;
+    }
+}

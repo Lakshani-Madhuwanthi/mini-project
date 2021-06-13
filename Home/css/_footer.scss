@@ -1,0 +1,30 @@
+.column{
+    background-color: #b9715e;
+
+    .footer{
+    min-height: 30vh;
+    padding-left: 10%;
+    padding-right: 10%;
+    @include flexCenter();
+    padding-top: 5rem;
+    
+    .social-media{
+        padding-top: 2rem;
+        a{
+            padding-right: 1rem;
+        }
+    }
+    .hotel-name{
+        font-size: 2.5rem;
+        font-weight: lighter;
+        color: rgb(53, 53, 53);
+        padding-left: 7rem;
+        }
+    }
+    .web{
+        p{
+            padding: 1rem 0;
+            text-align: center;
+        }
+    }
+}
