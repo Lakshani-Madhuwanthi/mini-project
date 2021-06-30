@@ -12,7 +12,7 @@ body{
     font-family: var(--primary-font);
 }
 li{
-    font-size: 2rem
+    font-size: 1.8rem;//change 2 to 1.8
 }
 a{
     text-decoration: none;
@@ -59,4 +59,3 @@ button{
 @import"./fixed-img";
 @import"./events";
 @import"./footer";
-@import"./media";
