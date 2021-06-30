@@ -7,7 +7,9 @@
     min-height: 10vh;
     padding: 3rem 0rem;
     @include flexCenter();
-  
+   img{
+      padding-right: 3rem;
+    }
     ul {
       @include flexCenter();
       flex: 1;
