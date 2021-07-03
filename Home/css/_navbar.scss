@@ -4,21 +4,20 @@
   nav {
     width: 80%;
     margin: auto;
-    min-height: 10vh;
-    padding: 1rem 0rem;//top and bottom 2 to 1
+    padding: 0.5rem 0rem;
     @include flexCenter();
-   img{
-      padding-right: 2rem;//change 3 to 2
+    img{
+      padding: 0rem 2rem;
     }
     ul {
       @include flexCenter();
       flex: 1;
       list-style: none;
-      font-weight: 300;//change 400 to 300
+      font-weight: 300;
       
     }
     #logo{
-        flex: 2;//change 1 to 2
+        flex: 2;
         letter-spacing: 1rem;
         font-size: 2.5rem;
         font-weight: lighter;

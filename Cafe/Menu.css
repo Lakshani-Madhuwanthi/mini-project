@@ -1,0 +1,120 @@
+*{
+margin:0;
+padding:0;
+font-family:Poppins;
+color:#255758;
+font-size:22px;
+}
+
+header{
+background-image:url(8.png);
+height: 100vh;
+background-size: cover;
+background-position: center;
+backdrop-filter:blur(10px);
+}
+
+ul li a{
+text-align:center;
+text-decoration: none;
+color:#fff;
+padding: 10px 30px;
+transition:0.6s ease;
+}
+
+ul li.active a{
+background-color:#255758 ;
+color:#fff;
+}
+
+ul li.active a:hover{
+background-color:#297172;
+color:#fff;
+}
+
+.title{
+position:absolute;
+top:50%;
+left:50%;
+transform: translate(-50%,-50%);
+}
+
+.button{
+position:absolute;
+top:82%;
+left:50%;
+transform: translate(-50%,-50%);
+}
+
+.btn{
+font-family:Poppins;
+border: 1px solid #255758;
+padding:10px 30px;
+color: #fff;
+background-color:#255758;
+text-decoration: none;
+transition: 0.6s ease;
+}
+
+.btn:hover{
+background-color:#297172;
+color:#fff;
+}
+
+body{
+margin:0;
+padding:0;
+text-align:center;
+background:none;
+background-size:cover;
+font-family: Poppins;
+background-image:radial-gradient(#297172 1%, transparent 5%), radial-gradient(#297172 1% , transparent 5%) ;
+background-color:#fff;
+background-position:0 0 , 50px 50px;
+background-size:100px 100px;
+}
+
+.title h2{
+color:#255758;
+font-size: 32px;
+}
+
+.title h3{
+color:#255758;
+font-size: 16px;
+}
+
+div{
+color:#255758;
+}
+
+
+
+.slider{
+width:600px;
+height:390px;
+background: url(5.png);
+margin:100px auto;
+animation: slide 20s infinite;
+border:7px solid #fff;
+}
+
+@keyframes slide{
+25%{
+background:url(3.png);
+}
+
+50%{
+background:url(1.png);
+}
+
+75%{
+background:url(6.png);
+}
+
+100%{
+background:url(10.png);
+}
+
+}
+

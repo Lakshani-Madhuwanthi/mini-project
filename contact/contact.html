@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>contact</title>
+	
+	<meta name='viewport' content='width=device-width, initial-scale=1'>
+<link rel="stylesheet"
+		href=
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+   <style type="text/css">
+         body{
+                           background-image: url('i3.jpg');
+                           background-repeat: no-repeat;
+                           background-attachment: fixed;
+                           background-size: cover;
+                    }
+                          
+       div1{  background-color:#297172;
+               margin-top:0em;
+               font-size: 1.4em;
+               width:40%;}
+               .solid{border-style: solid}  
+	input {
+  	display: block;
+  	width: 100%;
+	}
+
+           label,
+	select {
+  	display: block;
+  	width: 100%;
+  	max-width: 100%;
+	}
+
+	.input-icons {
+			width: 100%;
+			margin-bottom: 10px;
+		}
+		
+		.icon {
+                                                     background: white;
+			padding: 10px;
+			min-width: 40px;
+		}
+		
+		.input-field {
+			width: 100%;
+			padding: 10px;
+			text-align: center;
+		}
+
+       div2{ background-color:red;
+                 margin-top:50em;
+                 font-size: 1.4em;
+                 width:20%; 
+	}      
+        
+ </style>
+</head>
+<body>
+       
+       <h1 style="color:#FF8A80; text-align:left;font-size:90px; float:left;font-family:verdana;">HOTEL<br>BELLAGIO</b></h1>
+
+       <div1 class="solid" style="margin-right:2em; float:right; padding:5em;"><h1 style="color:#e7d5c3;font-family:times; "><i>RESERVE ONLINE</i></h1>
+       <form action="/action_page.php">
+
+       <br><h2 style="color:#b9715e ;font-family:courier new;">PLEASE FILL THE FORM!!!</h2><br>
+       <h2>Guest Details</h2>
+
+       <lable for><i class="fa fa-user icon" style="font-size:40px;color:blue;"></i></lable>
+      <input type="name" placeholder="Name" name="name" required>
+      <br>
+       
+      <lable for><i class="fa fa-envelope icon" style="font-size:40px;color:blue;"></i></lable>
+      <input type="email" placeholder="E-mail" name="user_email" required>
+      <br>
+      
+       <lable for><i class="fa fa-mobile icon" style="font-size:40px;color:blue;"></i></lable>
+       <input type="text" placeholder="Contact Number" name="number" required>
+       <br>
+             
+       <h2>Reservation Details</h2>
+
+<form action="/action_page.php">
+  <lable for><i class="fa fa-bed icon" style="font-size:40px;color:blue;"></i></lable>
+
+  <select name="adults" id="adults" required>
+    <option value="1Adult">1Adult</option>
+    <option value="2Adult">2Adult</option>
+    <option value="3Adult">3Adult</option>
+    <option value="4Adult">4Adult</option>   
+    <option value="5Adult">5Adult</option>
+    <option value="6Adult">6Adult</option>
+    <option value="7Adult">7Adult</option>
+    <option value="8Adult">8Adult</option>
+    <option value="9Adult">9Adult</option>
+    <option value="10Adult">10Adult</option>
+    <option value="11Adult">11Adult</option>
+    <option value="12Adult">12Adult</option>
+    <option value="13Adult">13Adult</option>
+    <option value="14Adult">14Adult</option>
+    <option value="15Adult">15Adult</option>
+    <option value="16Adult">16Adult</option>
+    <option value="17Adult">17Adult</option>
+    <option value="18Adult">18Adult</option>
+    <option value="19Adult">19Adult</option>
+    <option value="20Adult">20Adult</option>
+  </select><br>
+
+<select name="children" id="children">
+    <option value="No Children">No Children</option>
+    <option value="1Child">1Child</option>
+    <option value="2Children">2Children</option>
+    <option value="3Children">3Children</option>
+    <option value="4Children">4Children</option>   
+    <option value="5Children">5Children</option>
+    <option value="6Children">6Children</option>
+    <option value="7Children">7Children</option>
+    <option value="8Children">8Children</option>
+    <option value="9Children">9Children</option>
+    <option value="10Children">10Children</option>
+  </select><br>
+
+<select name="rooms" id="rooms" required>
+    <option value="1room">1Room</option>
+    <option value="2room">2Room</option>
+    <option value="3room">3Room</option>
+    <option value="4room">4Room</option>
+    <option value="5room">5Room</option>
+    <option value="6room">6Room</option>
+    <option value="7room">7Room</option>
+    <option value="8room">8Room</option>
+    <option value="9room">9Room</option>
+    <option value="10room">10Room</option>
+</select><br>
+
+       <lable for><i class="fa fa-star icon" style="font-size:40px;color:blue;"></i></lable>
+       <select name="star" id="star" required>
+      <option>1Star</option>
+      <option>2Star</option>
+      <option>3Star</option>
+      <option>5Star</option>
+      <option>Unrated</option>
+      </select>
+      <br>
+       
+      <p><strong><h3>Check In</h3></p>
+      <i class="fa fa-search icon" style="font-size:40px;color:blue;"></i>
+	<input type="date" id="myDate" value="2021-01-01" required>
+	<p id="demo"></p>
+	<script>
+		function myFunction() {
+		  var x = document.getElementById("myDate").value;
+		  document.getElementById("demo").innerHTML = x;
+		}
+	</script>
+
+	<p><strong><h3>Check Out</h3></p>
+                 <i class="fa fa-search icon" style="font-size:40px;color:blue;"></i>
+	<input type="date" id="myDate" value="2021-01-01">
+	<p id="demo"></p>
+	<script>
+		function myFunction() {
+		  var x = document.getElementById("myDate").value;
+		  document.getElementById("demo").innerHTML = x;
+		}
+	</script>
+      <input type="submit">
+     </form></div1>
+     <div2 style="float:left; margin-left:6em; padding: 0.5em; text-align: center">Call for Details<br><i class='fas fa-phone-alt' style='font-size:36px'></i> 091-1234567<br></div2>
+     
+</body>
+</html>
