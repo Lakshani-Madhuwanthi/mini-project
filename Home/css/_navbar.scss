@@ -1,5 +1,9 @@
 .nav-container {
     background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    box-shadow: 0 0.2rem 0.2rem  rgba(59, 59, 59, 0.2);
   }
   nav {
     width: 80%;
