@@ -77,7 +77,6 @@ button:hover {
 nav {
   width: 80%;
   margin: auto;
-  padding: 0.5rem 0rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -90,7 +89,7 @@ nav {
 }
 
 nav img {
-  padding: 0rem 2rem;
+  padding: 0.5rem 2rem;
 }
 
 nav ul {
@@ -107,7 +106,7 @@ nav ul {
       -ms-flex: 1;
           flex: 1;
   list-style: none;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 nav #logo {

@@ -4,16 +4,15 @@
   nav {
     width: 80%;
     margin: auto;
-    padding: 0.5rem 0rem;
     @include flexCenter();
     img{
-      padding: 0rem 2rem;
+      padding: 0.5rem 2rem;
     }
     ul {
       @include flexCenter();
       flex: 1;
       list-style: none;
-      font-weight: 300;
+      font-weight: 400;
       
     }
     #logo{
