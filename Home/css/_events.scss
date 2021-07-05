@@ -1,18 +1,19 @@
 .events {
-    min-height: 90vh;
+    min-height: 80vh;
     width: 80%;
     margin: auto;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     h2{
+        font-size: 8rem;
         color: var(--primary-color2);  
     }
     .cards {
       display: flex;
       justify-content: space-between;
       .card {
-        background: var(--hover-color);
+        background: var(--primary-color2);
         margin: 0rem 5rem;
         display: flex;
         flex-direction: column;

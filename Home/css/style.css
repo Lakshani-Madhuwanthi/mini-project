@@ -114,7 +114,6 @@ nav #logo {
       -ms-flex: 2;
           flex: 2;
   letter-spacing: 1rem;
-  font-size: 2.5rem;
   font-weight: lighter;
 }
 
@@ -215,7 +214,7 @@ nav #logo {
 }
 
 .events {
-  min-height: 90vh;
+  min-height: 80vh;
   width: 80%;
   margin: auto;
   display: -webkit-box;
@@ -230,6 +229,7 @@ nav #logo {
 }
 
 .events h2 {
+  font-size: 8rem;
   color: var(--primary-color2);
 }
 
@@ -243,7 +243,7 @@ nav #logo {
 }
 
 .events .cards .card {
-  background: var(--hover-color);
+  background: var(--primary-color2);
   margin: 0rem 5rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -272,6 +272,7 @@ nav #logo {
 
 .column {
   background-color: #b9715e;
+  margin-top: 5%;
 }
 
 .column .footer {
