@@ -1,16 +1,21 @@
 .column{
     background-color: #b9715e;
     margin-top: 5%;
+    font-size: 1.5rem ;
 
+    p{
+        font-size: 1.5rem;
+        font-weight: bolder;
+    }
     .footer{
-    min-height: 30vh;
+    min-height: 20vh;
     padding-left: 10%;
     padding-right: 10%;
     @include flexCenter();
     padding-top: 5rem;
     
     .social-media{
-        padding-top: 2rem;
+        padding: 2rem 0rem;
         a{
             padding-right: 1rem;
         }
