@@ -128,6 +128,7 @@ nav #logo {
       grid-template-columns: 30% 40% 30%;
   -ms-grid-rows: 1fr 1fr 1fr;
       grid-template-rows: 1fr 1fr 1fr;
+  opacity: 0.8;
 }
 
 .showcase h2 {
@@ -140,29 +141,6 @@ nav #logo {
   -ms-flex-item-align: start;
       align-self: flex-start;
   padding-left: 5rem;
-}
-
-.showcase .card {
-  background: white;
-  -ms-grid-column: 3;
-  -ms-grid-column-span: 1;
-  grid-column: 3/4;
-  -ms-grid-row: 3;
-  -ms-grid-row-span: 1;
-  grid-row: 3/4;
-  padding-left: 2rem;
-  margin: 0rem 2rem 2rem 0rem;
-}
-
-.showcase .card h3 {
-  color: black;
-  padding: 2rem 0rem;
-}
-
-.showcase .card p {
-  color: black;
-  font-size: 2rem;
-  padding-bottom: 3rem;
 }
 
 .nice-place {
